@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List users</title>
+</head>
+<body>
+	<ul>
+		{% for user in user_list %}
+		<li>{{user.name}}</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>

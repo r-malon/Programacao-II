@@ -1,0 +1,20 @@
+
+CRUD: Create, Retrieve, Update e Delete
+
+index -> list -> insert -> show_msg
+^		    |
+|		  update				|
+------------------------------------------------
+
+
+git init
+git clone "..."
+git add *
+git rm -r /pasta #remove subapastas tbm
+git commit -m "Added msg"
+git status
+git push origin master
+
+git remote update #verifica remoto e diz se está OK
+git pull #atualiza local
+git merge #junta 2 ramos divergentes(casa & escola)
